@@ -6,3 +6,37 @@
     font-style: italic;
 
 }
+
+
+
+/* conct us */
+.btnConctUs{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+    color: #E5CA5E;
+    font-size: 40px;
+    z-index: 20;
+    display: none;
+}
+
+.btnCallUs {
+    position: fixed;
+    bottom: 0;
+    padding: 10px;
+    color: #E5CA5E;
+    font-size: 40px;
+    z-index: 20;
+    display: none;
+}
+
+@media (max-width:1000px) {
+    .btnConctUs{
+        display: block;
+    }
+    
+    .btnCallUs {
+        display: block;
+    }
+}
